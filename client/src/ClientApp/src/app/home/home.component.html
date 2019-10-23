@@ -1,0 +1,18 @@
+<h1>Consumindo TesteViaVarejoAPI</h1>
+
+<p *ngIf="!amigos"><em>Loading...</em></p>
+
+<table class='table' *ngIf="amigos">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Distancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let amigo of amigos">
+      <td>{{ amigo.nome }}</td>
+      <td>{{ amigo.distancia }}</td>
+    </tr>
+  </tbody>
+</table>

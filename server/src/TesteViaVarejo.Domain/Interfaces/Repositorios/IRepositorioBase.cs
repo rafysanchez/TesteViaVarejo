@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+
+namespace TesteViaVarejo.Domain.Interfaces.Repositorios
+{
+    public interface IRepositorioBase<T> where T : class
+    {
+        void Adicionar(T entidade);
+        IEnumerable<T> ObterTodos();
+        void Atualizar(T entidade);
+        IQueryable<T> ListaPor(Expression<Func<T, bool>> filter);
+        bool Existe(Expression<Func<T, bool>> predicate);
+        void Dispose();
+        T Procura(Func<T, bool> predicate, out String erro);
+        T ObterPorId(Int32 id);
+    }
+}
