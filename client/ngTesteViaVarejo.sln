@@ -1,10 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ngTesteViaVarejo", "src\ngTesteViaVarejo.csproj", "{B6103492-264B-4F73-84CA-1367D06DEACC}"
-
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E4DB2B30-322D-4822-B2BB-33AA852CFBF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,6 +17,10 @@ Global
 		{B6103492-264B-4F73-84CA-1367D06DEACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6103492-264B-4F73-84CA-1367D06DEACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6103492-264B-4F73-84CA-1367D06DEACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DB2B30-322D-4822-B2BB-33AA852CFBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DB2B30-322D-4822-B2BB-33AA852CFBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DB2B30-322D-4822-B2BB-33AA852CFBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DB2B30-322D-4822-B2BB-33AA852CFBF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

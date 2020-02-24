@@ -37,7 +37,7 @@ namespace ngTesteViaVarejo.Controllers
             {
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(
-                    new MediaTypeWithQualityHeaderValue("application/json"));
+                    new MediaTypeWithQualityHeaderValue("application/json")); //application/xml
 
                 HttpResponseMessage respToken = client.PostAsync(
                     _urlBase + String.Format("Usuario/Login/{0}/{1}", config.GetSection("API_Access:Usuario").Value,
